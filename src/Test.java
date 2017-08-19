@@ -11,7 +11,6 @@ public class Test {
         System.out.println(Arrays.toString(copyToAnotherArray(a)));
         System.out.println(Arrays.toString(reverseArray(a)));
 
-
     }
 
     private static double findMax(int[] a) {
@@ -44,11 +43,11 @@ public class Test {
         int N = a.length;
         for (int i = 0; i < N / 2; i++) // loop till half of the array as we are swapping elements firt-last,second-second_last,third-third_last
         {
-            int temp = a[i];
-            a[i] = a[N - 1 - i];
-            a[N - i - 1] = temp;
+            int temp = a[i];//assign current element to temp
+            a[i] = a[N - 1 - i];//assign last minus oneth minus current index of element into index of array
+            a[N - i - 1] = temp; // assign value in temp to last minus oneth minus current index of element into index of array.
         }
-        return a;
+        return a; // return reversed array
 
     }
 
