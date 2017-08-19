@@ -5,9 +5,12 @@ import java.util.Arrays;
 public class BinarySearch {
 
     public static void main(String[] args) {
-            int [] a = new int [] {12,25,1,67,36,89,114,19,50,90};
+            int [] a = new int [] {489910,
+                    18940,774392
+                    ,490636
+                    ,125544,407391,115771,992663,923282,176914,217904,571222,519039,395667};
         Arrays.sort(a);//Sort the array in ascending order before searching
-        System.out.println(rank(50,a));// pass the element to search & reference of array
+        System.out.println(rank(176914,a));// pass the element to search & reference of array
 
     }
     public static int rank(int key,int[]a)
