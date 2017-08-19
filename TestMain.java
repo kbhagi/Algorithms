@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * Created by Ramanuja on 8/19/2017.
  */
-public class Test {
+public class TestMain {
     public static void main(String[] args) {
         int[] a = new int[]{23, 67, 12, 6, 55, 34, 80, 30, 10, 98};      // Array of size 10 elements
         System.out.println(findMax(a));
